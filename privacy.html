@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>プライバシーポリシー | ModGarage</title><style>:root{--bg:#f6f7fb;--panel:#fff;--line:#dce1ee;--text:#141a2e;--dim:#4a5470;--accent:#1f5fd1}
+@media (prefers-color-scheme: dark){:root{--bg:#080c18;--panel:#121a30;--line:#26304d;--text:#e8ecf6;--dim:#a3adc6;--accent:#7aa8ff}}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--text);margin:0;line-height:1.9;font-size:15px;font-family:"Hiragino Sans","Hiragino Kaku Gothic ProN",system-ui,sans-serif}
+main{max-width:760px;margin:0 auto;padding:40px 16px 80px}
+h1{font-size:24px;line-height:1.4;margin:0 0 16px}
+h2{font-size:16px;margin:28px 0 6px;color:var(--accent)}
+p,li{margin:0 0 8px;overflow-wrap:anywhere}
+ul{padding-left:20px;margin:0 0 8px}
+a{color:var(--accent)}
+nav{margin-top:40px;padding-top:16px;border-top:1px solid var(--line);font-size:13px;color:var(--dim)}
+nav a{margin-right:16px}</style></head>
+<body><main>
+<h1>プライバシーポリシー</h1>
+<p>ModGarage(以下「本アプリ」)は、運営者 Ryota Masuda(以下「運営者」)が提供する、車とバイクの改造後の姿をAIで作るアプリです。本アプリでどの情報を扱い、どこへ送り、いつ消すかを次のとおり定めます。</p>
+<h2>1. 改造後の画像を作るために送る写真</h2>
+<p>選んだ写真は、改造後の画像を作るときだけ運営者の中継サーバー(Cloudflare 上で動かしています)を経由し、外部の画像生成サービスである Google LLC の Gemini API(米国)へ送ります。送るのは、利用者がナンバープレートの上を指でなぞって黒く塗った後の写真と、選んだ車種・改造の内容から作る指示文です。写っている車のメーカー・車名を入力した場合も、作品の一覧で見分けるためだけに端末の中で使い、画像の生成には使いません。</p>
+<p>中継サーバーは送られた写真や指示文を保存しません。できあがった画像はこの端末の中だけに保存され、運営者のサーバーには残りません。写真の撮影場所や撮影日時(Exif情報)は読み取りません。</p>
+<h2>2. ナンバープレートを隠す仕組み</h2>
+<p>利用者が黒く塗った範囲は、送信前の写真とできあがった画像の両方で塗りつぶします。あわせて、塗り忘れたナンバープレートが写っていないかを Gemini API に確かめさせ、残っていればその位置をアプリへ返して確認画面に戻します。塗る前の写真をナンバープレートの位置を探す目的だけで外部へ送ることはしません。</p>
+<h2>3. 外部へ送るそのほかの情報</h2>
+<ul>
+<li><b>RevenueCat, Inc.(米国の会社)</b>: 購入の状態を管理するために、本アプリが端末ごとに作る匿名の識別子と、購入した商品・期限などの購入の記録を送ります。メールアドレスや氏名は送りません。</li>
+<li><b>Functional Software, Inc.(米国の会社、Sentry)</b>: 本アプリが想定外の止まり方をしたとき、不具合を直すために、操作の種類を示す名前(画面を開いた、写真を選んだ、生成を始めたなど)、起きた場面を示す符号、端末の機種と OS の版を送ります。写真の中身や、生成に使った指示文は送りません。</li>
+<li><b>Apple と Google</b>: 購入は App Store と Google Play の仕組みで行います。</li>
+</ul>
+<h2>4. 中継サーバーが一時的に持つ情報</h2>
+<p>中継サーバーは、匿名の識別子ごとの当日の生成回数と、接続元を示す符号(接続元のIPアドレスを塩付きハッシュに変えたもの)ごとの当日の回数を、不正な集中利用を防ぐために持ちます。どちらも翌日になると自動で消え、利用者が個別に消すことはできません。写真そのものは、この回数の記録には含みません。</p>
+<p>米国の個人情報の保護の制度は、個人情報保護委員会のページ(<a href="https://www.ppc.go.jp/enforcement/infoprovision/laws/">https://www.ppc.go.jp/enforcement/infoprovision/laws/</a>)で読めます。広告は表示せず、広告のための追跡もしません。</p>
+<h2>5. 使う目的</h2>
+<p>改造後の画像を作ること、1日に使える回数を数えて不正な集中利用を防ぐこと、購入の状態を管理すること、不具合を直すこと。これ以外の目的には使いません。</p>
+<h2>6. 消し方</h2>
+<p>アプリの「設定」の「すべてのデータを削除」で、端末の中の作品の画像と設定をすべて消します。アプリを削除しても消えます。RevenueCat の購入の記録は、Apple と Google の購入の記録と結び付いているため、本アプリからは消せません。消したい場合は下のメールアドレスへご連絡ください。</p>
+<h2>7. 対象の年齢</h2>
+<p>本アプリは13歳未満の子どもを対象にしていません。</p>
+<h2>8. 問い合わせ</h2>
+<p><a href="mailto:m.ryota1222@gmail.com">m.ryota1222@gmail.com</a></p>
+<h2>9. 変更</h2>
+<p>このポリシーを変えるときは、このページで知らせます。扱う情報や送る先を増やすときは、本アプリの中でもお知らせします。</p>
+<p>制定 2026年10月19日</p>
+<nav><a href="index.html">サポート</a><a href="terms.html">利用規約</a><a href="privacy.html">プライバシーポリシー</a></nav></main></body></html>
